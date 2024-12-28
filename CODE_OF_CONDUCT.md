@@ -1,23 +1,90 @@
-## Code of Conduct for DevDisplay
+# Code of Conduct for DevDisplay
 
-DevDisplay is an open source project that welcomes all individuals regardless of their background, experience level, or identity. We strive to foster an inclusive and respectful community where everyone feels safe and supported.
+## Purpose
 
-As contributors and maintainers of this project, we pledge to adhere to the following code of conduct:
+DevDisplay is dedicated to providing a welcoming and inclusive environment for everyone, regardless of their level of expertise, background, or identity. This Code of Conduct outlines our expectations for all community participants to foster a positive and collaborative environment.
 
-1. **Respect and kindness:** We will treat all individuals with respect and kindness, regardless of their background or identity. We will not tolerate any form of harassment, discrimination, or disrespectful behavior.
+---
 
-2. **Inclusivity:** We welcome and encourage the participation of individuals from all backgrounds and experiences. We strive to create an environment that is inclusive and welcoming to everyone.
+## Our Pledge
 
-3. **Open communication:** We will communicate openly and honestly with each other. We will listen to each other's perspectives and work together to find solutions to problems.
+In the interest of fostering an open and welcoming environment, we as contributors, maintainers, and participants pledge to make participation in DevDisplay a harassment-free experience for everyone.
 
-4. **Professionalism:** We will conduct ourselves professionally and maintain a high standard of behavior at all times. We will avoid personal attacks, aggressive behavior, or any other conduct that could be perceived as unprofessional.
+---
 
-5. **Safety:** We will prioritize the safety and well-being of all members of our community. We will take appropriate action to address any safety concerns or violations of this code of conduct.
+## Expected Behavior
 
-6. **Accountability:** We will hold ourselves and others accountable for our actions and behavior. We will take responsibility for our mistakes and work to make things right.
+We expect all participants to:
 
-7. **Continuous improvement:** We recognize that we are all constantly learning and growing. We will strive to continuously improve our knowledge, skills, and behavior to create a better community for everyone.
+1. **Be Respectful:**
 
-We encourage all members of our community to uphold this code of conduct and to help us create a safe, inclusive, and welcoming environment for all. If you witness or experience any behavior that violates this code of conduct, please report it to the project maintainers immediately.
+   - Treat everyone with respect and courtesy.
+   - Approach disagreements constructively and considerately.
 
-Thank you for your participation in the DevDisplay community.
+2. **Be Inclusive:**
+
+   - Ensure everyone feels welcome and valued.
+   - Avoid discriminatory, exclusionary, or harmful language and actions.
+
+3. **Be Collaborative:**
+
+   - Share knowledge and help others.
+   - Focus on improving the platform and the experience for all.
+
+4. **Respect Privacy:**
+   - Protect sensitive information shared within the community.
+   - Avoid sharing private details without consent.
+
+---
+
+## Unacceptable Behavior
+
+The following behaviors are unacceptable in the DevDisplay community:
+
+- Harassment of any kind, including offensive comments or deliberate intimidation.
+- Discrimination based on race, gender, sexual orientation, disability, or any other personal characteristic.
+- Posting spam, irrelevant or harmful content, or malicious code.
+- Disruptive behavior that hinders community participation.
+
+---
+
+## **For More Details and Help**
+
+- **Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)
+- **Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)
+
+  - Connect with other developers and collaborate on exciting projects.
+
+- **Reach Out to the Team**:
+
+  - Organization Email: team@devdisplay.org
+  - Creator's Email: hellow.ashutosh@gmail.com
+
+- **Connect on Social Media**:
+  - **GitHub Organization**: https://github.com/devdisplay
+  - **LinkedIn**: https://www.linkedin.com/company/devdisplay/
+  - **Twitter**: https://x.com/devdisplay_
+  - **Instagram**: https://www.instagram.com/devdisplay/
+
+---
+
+2. **Provide Details:**
+
+   - Include a description of the incident, relevant links, or screenshots if possible.
+
+3. **Expect a Response:**
+   - The admin team will investigate and take appropriate action, maintaining confidentiality.
+
+---
+
+## Enforcement
+
+Participants asked to stop unacceptable behavior are expected to comply immediately. Violations may result in:
+
+- Temporary or permanent bans from the platform.
+- Removal of contributions if necessary.
+- Other actions deemed appropriate by the admin team.
+
+---
+
+Thank you for helping us maintain a respectful and inclusive community at **DevDisplay**.
