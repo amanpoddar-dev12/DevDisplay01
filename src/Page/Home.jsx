@@ -1,13 +1,16 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
+import { Footer } from '../components/Footer/Footer';
 
 const Hero = () => {
   return (
-    <section className="hero-section mt-20 flex min-h-screen flex-col items-center justify-center text-white ">
+    <section className="hero-section mt-20 flex flex-col  items-center justify-center text-white sm:min-h-screen ">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md mx-auto mb-10 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
-          We're Open Source {'>'} Star Now🌟
+          <a href="https://github.com/codeaashu/DevDisplay" target="_blank">
+            We're Open Source {'>'} Star Now🌟
+          </a>
         </p>
         <h1 className="my-4 text-4xl font-bold tracking-widest md:text-4xl">One Place for all your Tech Needs</h1>
         <h2 className="my-4 text-6xl font-bold">
@@ -15,7 +18,7 @@ const Hero = () => {
         </h2>
         <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Global platform that fulfills all your tech needs</p>
       </div>
-      <div className="relative -top-10 left-16 flex h-[400px] w-full max-w-[600px] items-center justify-center md:h-[500px] lg:h-[600px]">
+      <div className="mb-[-80%] xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
         <Globe />
       </div>
     </section>
@@ -24,8 +27,8 @@ const Hero = () => {
 
 const TechFeatures = () => {
   return (
-    <section className="tech-features-section max-w-[80%] px-4 py-16 text-white">
-      <div className="mx-auto my-12 max-w-[80%] text-center">
+    <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
+      <div className="mx-auto my-12 max-w-[80%] text-center ">
         <h2 className="my-6 text-4xl font-bold text-[#00a6fb]">All Tech Features in One Place</h2>
         <p className="mx-auto my-12 mb-8 max-w-3xl text-xl">
           Discover a range of tools, resources, and opportunities to enhance your tech journey and skills.
@@ -113,6 +116,44 @@ const TechFeatures = () => {
             <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
           </div>
         </a>
+
+        <a
+          href="/journeys"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">Journeys Page</h3>
+            <p>
+              Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="/IndustryTrends"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">Industry Trends & Expert Insights</h3>
+            <p>
+              Share articles and video content regularly to provide industry trends, expert interviews, and in-depth
+              analysis. This would keep users updated with the latest trends and offer valuable career advice.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="/AiCareer"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">AI Career Navigator</h3>
+            <p>
+              Get personalized career recommendations based on your skills, interests, and job preferences. The AI
+              Career Navigator will analyze your skills and recommend a career path that aligns with your goals.
+            </p>
+          </div>
+        </a>
       </div>
 
       {/* Card for Adding New Features */}
@@ -124,7 +165,10 @@ const TechFeatures = () => {
           <h3 className="mb-4 text-2xl font-semibold">
             Want to <span className="text-blue-400">Add New Features</span> ?
           </h3>
-          <p>Suggest new features you'd love to see and help shape the tech community.</p>
+          <p>
+            Suggest new features you'd love to see and help shape the tech community. Explore inspiring stories of
+            achievers, their challenges, and the strategies that led them to success.
+          </p>
         </div>
       </a>
     </section>
@@ -143,9 +187,9 @@ const supporters = [
   { name: 'Vercel', logo: '/assets/SupportedBy/Vercel.png' },
 ];
 
-const SupportedBy = () => {
+export const SupportedBy = () => {
   return (
-    <div className="my-10 py-10">
+    <div className="py-20">
       <h2 className="my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
 
       <div className="relative mx-auto flex max-w-[99vw] space-x-8 overflow-x-hidden">
@@ -171,61 +215,6 @@ const SupportedBy = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-const Footer = () => {
-  return (
-    <footer className="w-full bg-gray-800 py-8 text-white">
-      <div className="mx-auto max-w-screen-xl px-4">
-        <div className="flex flex-col items-center justify-between md:flex-row">
-          {/* Left section */}
-          <div className="mb-6 text-center md:mb-0 md:text-left">
-            <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-2 text-sm">
-              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
-              needs under one platform.
-            </p>
-          </div>
-
-          {/* Middle section */}
-          <div className="mb-6 flex space-x-6 md:mb-0">
-            <a href="/about" className="text-sm hover:text-[#00a6fb]">
-              About Us
-            </a>
-            <a href="/contact" className="text-sm hover:text-[#00a6fb]">
-              Contact
-            </a>
-            <a href="/privacy" className="text-sm hover:text-[#00a6fb]">
-              Privacy Policy
-            </a>
-            <a href="/terms" className="text-sm hover:text-[#00a6fb]">
-              Terms of Service
-            </a>
-          </div>
-
-          {/* Right section */}
-          <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook-f text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github text-xl hover:text-[#00a6fb]"></i>
-            </a>
-          </div>
-        </div>
-
-        <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-          <p className="text-sm">© 2024 DevDisplay. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
   );
 };
 

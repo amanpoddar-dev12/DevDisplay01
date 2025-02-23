@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import AiCareer from './Page/AiCareer.jsx';
 import Homepage from './Homepage';
 import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
@@ -21,7 +22,13 @@ import RoadmapGuide from './Resouces_Pages/RoadmapGuide.jsx';
 import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
 import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
-
+import About from './Page/About.jsx';
+import Contribution from './Page/Contribution.jsx';
+import PageNotFound from './Page/PageNotFound.jsx';
+import SponsorUs from './Page/Sponsor.jsx';
+import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
+import IndustryTrends from './Page/IndustryTrends.jsx';
+import JourneyPage from './Page/JourneyPage.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -74,6 +81,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
@@ -90,9 +98,15 @@ function App() {
         <Route path="/libraries" element={<OpenSource />} />
         <Route path="/roadmaps" element={<RoadmapGuide />} />
         <Route path="/interview-kits" element={<InterviewPrep />} />
-
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
+        <Route path="/SponsorUs" element={<SponsorUs />} />
+        <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
+        <Route path="/journeys" element={<JourneyPage />} />
+        <Route path="/IndustryTrends" element={<IndustryTrends />} />
+        <Route path="/Contribution" element={<Contribution />} />
+        <Route path="/AiCareer" element={<AiCareer />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
